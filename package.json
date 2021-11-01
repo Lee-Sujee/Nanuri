@@ -1,0 +1,27 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "myproject": "www.js"
+  },
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lee-Sujee/Nanuri.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lee-Sujee/Nanuri/issues"
+  },
+  "homepage": "https://github.com/Lee-Sujee/Nanuri#readme",
+  "dependencies": {
+    "express-mysql-session": "^2.1.7",
+    "express-session": "^1.17.2"
+  }
+}
